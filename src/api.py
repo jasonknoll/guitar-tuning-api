@@ -15,4 +15,7 @@ async def index():
     return {"out":"API is online!"}
 
 # TODO add more endpionts haha
+@app.get("/v1/guitar/")
+async def guitar_index():
+    return {"out":"This will be a damn api soon. Need to plan DB schema"}
 
