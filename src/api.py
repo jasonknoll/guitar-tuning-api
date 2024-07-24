@@ -8,23 +8,11 @@ load_dotenv()
 
 app = FastAPI()
 
-auth_path = os.getenv("AUTH_PATH")
-
-creds = credentials.Certificate(auth_path)
-firebase_admin.initialize_app(creds)
-db = firestore.client()
+# TODO - Pick new database/ask gpt
 
 @app.get("/")
 async def index():
-    return {"out":"Hello World"}
+    return {"out":"API is online!"}
 
-@app.get("/test")
-async def test():
-    document = db.collection("songs").document("test")
-    doc = document.get()
-    if doc.exists:
-        return doc.to_dict()
-    else:
-        return {"error" : "you idiot"}
-
+# TODO add more endpionts haha
 
