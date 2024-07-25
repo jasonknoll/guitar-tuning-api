@@ -16,6 +16,18 @@ async def index():
 
 # TODO add more endpionts haha
 @app.get("/v1/guitar/")
-async def guitar_index():
+async def get_guitar_index():
     return {"out":"This will be a damn api soon. Need to plan DB schema"}
+
+@app.get("/v1/guitar/tunings")
+async def get_guitar_tunings():
+    return {"":""}
+
+@app.get("/v1/bands/")
+async def get_bands():
+    return {"":""}
+
+@app.get("/v1/songs/")
+async def get_songs():
+    return {"":""}
 
