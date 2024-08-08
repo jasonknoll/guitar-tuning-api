@@ -1,9 +1,14 @@
-# Guitar Song Tuning API
+# Jason Knoll's Personal API
+
+I have a website now. Any web apps will need an api. I'm putting it all in
+one place for now I guess.
+
+## Guitar tuning API
 
 As a guitarist who loves genres that utilize different guitar tunings,
 I needed a project that I could relate to. Here it is.
 
-# Synopsis
+### Synopsis
 Guitarists like me love to obsess over things that are cool, but don't necessarily
 matter all that much. One of those things is guitar tunings. 99% of guitar music 
 is written in E-Standard, where the string are tuned to the notes: EADGBE, with each
@@ -15,3 +20,7 @@ to stray away from standard tuning.
 Well you can definitely go to a tabs website, but I want to make a project lol
 
 Come to my site! Use this API!
+
+## Finance/Crypto Data stuff?
+
+no clue yet! 
